@@ -1,0 +1,23 @@
+{
+  "name": "patent-claim-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Windows-local patent claim expansion and structured prior-art coverage check backend (TypeScript + Node.js + SQLite). No web UI, no NLP, no real patent data.",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node scripts/start.mjs",
+    "stop": "node scripts/stop.mjs",
+    "cli": "node src/cli.ts",
+    "migrate": "node src/cli.ts migrate",
+    "demo": "node src/cli.ts demo",
+    "test": "node --test \"test/*.test.ts\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  }
+}

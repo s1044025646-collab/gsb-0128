@@ -1,0 +1,56 @@
+{
+  "external_id": "dict-v1",
+  "version_label": "v1",
+  "note": "虚构特征词典第 1 版",
+  "features": [
+    {
+      "code": "F1",
+      "name": "基座壳体"
+    },
+    {
+      "code": "F2",
+      "name": "显示模块"
+    },
+    {
+      "code": "F2B",
+      "name": "柔性显示模块"
+    },
+    {
+      "code": "F3",
+      "name": "供电模块"
+    },
+    {
+      "code": "F4",
+      "name": "无线通信模块"
+    },
+    {
+      "code": "F5",
+      "name": "触控输入单元"
+    },
+    {
+      "code": "F6",
+      "name": "物理键盘单元"
+    },
+    {
+      "code": "F7",
+      "name": "指纹识别单元"
+    },
+    {
+      "code": "F8",
+      "name": "加密芯片"
+    }
+  ],
+  "equivalences": [
+    {
+      "code_a": "F2",
+      "code_b": "F2B",
+      "relation": "equivalent"
+    }
+  ],
+  "mutex": [
+    {
+      "code_a": "F5",
+      "code_b": "F6"
+    }
+  ]
+}

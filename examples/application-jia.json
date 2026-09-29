@@ -1,0 +1,63 @@
+{
+  "external_id": "app-jia",
+  "title": "虚构专利申请甲（演示用）",
+  "filing_date": "2025-06-10",
+  "priority_date": "2025-06-01",
+  "claims": [
+    {
+      "number": 1,
+      "type": "independent",
+      "features": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    {
+      "number": 2,
+      "type": "dependent",
+      "dependency_type": "single",
+      "parent_numbers": [
+        1
+      ],
+      "features": [
+        "F4"
+      ]
+    },
+    {
+      "number": 3,
+      "type": "dependent",
+      "dependency_type": "multiple_alternative",
+      "parent_numbers": [
+        1,
+        2
+      ],
+      "features": [
+        "F5"
+      ]
+    },
+    {
+      "number": 4,
+      "type": "dependent",
+      "dependency_type": "multiple_simultaneous",
+      "parent_numbers": [
+        1,
+        2
+      ],
+      "features": [
+        "F7"
+      ]
+    },
+    {
+      "number": 5,
+      "type": "dependent",
+      "dependency_type": "single",
+      "parent_numbers": [
+        3
+      ],
+      "features": [
+        "F8"
+      ]
+    }
+  ]
+}

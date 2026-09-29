@@ -1,0 +1,57 @@
+{
+  "external_id": "app-bing",
+  "title": "虚构专利申请丙（带引用缺陷，演示用）",
+  "filing_date": "2025-06-10",
+  "priority_date": "2025-06-01",
+  "claims": [
+    {
+      "number": 1,
+      "type": "independent",
+      "features": [
+        "F1",
+        "F2"
+      ]
+    },
+    {
+      "number": 2,
+      "type": "dependent",
+      "dependency_type": "single",
+      "parent_numbers": [
+        99
+      ],
+      "features": [
+        "F4"
+      ]
+    },
+    {
+      "number": 3,
+      "type": "dependent",
+      "dependency_type": "single",
+      "parent_numbers": [
+        4
+      ],
+      "features": [
+        "F4"
+      ]
+    },
+    {
+      "number": 4,
+      "type": "dependent",
+      "dependency_type": "single",
+      "parent_numbers": [
+        3
+      ],
+      "features": [
+        "F5"
+      ]
+    },
+    {
+      "number": 5,
+      "type": "independent",
+      "features": [
+        "F5",
+        "F6"
+      ]
+    }
+  ]
+}
