@@ -1,0 +1,9 @@
+{
+  "version": "dict-v1",
+  "note": "Entirely fictional feature dictionary. Equivalence is the only permitted source of synonymy.",
+  "equivalences": [
+    ["F5_lever", "actuator"],
+    ["display", "screen"],
+    ["F6_metal_housing", "alloy_enclosure"]
+  ]
+}

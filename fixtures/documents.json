@@ -1,0 +1,68 @@
+[
+  {
+    "id": "doc-d1",
+    "docNo": "D1",
+    "title": "Fictional Earlier Widget Pamphlet",
+    "pubDate": "2019-01-10",
+    "disclosures": [
+      { "feature": "F1_widget", "evidence": "D1 p.2 fig.1 shows the fictional widget body" },
+      { "feature": "F2_fastener", "evidence": "D1 p.3 para.2 describes the fictional fastener" }
+    ]
+  },
+  {
+    "id": "doc-d2",
+    "docNo": "D2",
+    "title": "Fictional Full Disclosure Article",
+    "pubDate": "2019-09-01",
+    "disclosures": [
+      { "feature": "F1_widget", "evidence": "D2 section 2 widget" },
+      { "feature": "F2_fastener", "evidence": "D2 section 2 fastener" },
+      { "feature": "F3_spring", "evidence": "D2 section 3.1 spring element" },
+      { "feature": "F4_display", "evidence": "D2 section 3.2 display panel" },
+      { "feature": "actuator", "evidence": "D2 section 3.3 actuator (dict-v1 equivalent of F5_lever)" },
+      { "feature": "alloy_enclosure", "evidence": "D2 section 4 alloy enclosure (dict-v1 equivalent of F6_metal_housing)" },
+      { "feature": "F7_battery", "evidence": "D2 section 5 battery pack" },
+      { "feature": "F8_waterproof", "evidence": "D2 section 6 waterproof seal" },
+      { "feature": "F9_manual_knob", "evidence": "D2 section 7 manual knob" },
+      { "feature": "F10_indicator", "evidence": "D2 section 8 indicator lamp" }
+    ]
+  },
+  {
+    "id": "doc-d3",
+    "docNo": "D3",
+    "title": "Fictional Same-Day Disclosure (priority date)",
+    "pubDate": "2020-06-01",
+    "disclosures": [
+      { "feature": "F1_widget", "evidence": "D3 same-day publication must not count as prior art" },
+      { "feature": "F2_fastener", "evidence": "D3 fastener" }
+    ]
+  },
+  {
+    "id": "doc-d4",
+    "docNo": "D4",
+    "title": "Fictional Late Publication",
+    "pubDate": "2021-01-15",
+    "disclosures": [
+      { "feature": "F1_widget", "evidence": "D4 published after priority date" },
+      { "feature": "F2_fastener", "evidence": "D4 fastener" }
+    ]
+  },
+  {
+    "id": "doc-d5",
+    "docNo": "D5",
+    "title": "Fictional Split Disclosure A (needs stitching, must fail alone)",
+    "pubDate": "2018-03-01",
+    "disclosures": [
+      { "feature": "F1_widget", "evidence": "D5 discloses only the widget body" }
+    ]
+  },
+  {
+    "id": "doc-d6",
+    "docNo": "D6",
+    "title": "Fictional Split Disclosure B (needs stitching, must fail alone)",
+    "pubDate": "2018-04-01",
+    "disclosures": [
+      { "feature": "F2_fastener", "evidence": "D6 discloses only the fastener" }
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "id": "app-demo-0001",
+  "title": "Fictional Widget Device (entirely fictitious example)",
+  "filingDate": "2021-06-01",
+  "priorityDate": "2020-06-01",
+  "dictVersion": "dict-v1",
+  "claims": [
+    { "claimNo": 1, "kind": "independent", "depType": "none", "dependsOn": [], "features": ["F1_widget", "F2_fastener"] },
+    { "claimNo": 2, "kind": "dependent", "depType": "any", "dependsOn": [1], "features": ["F3_spring"] },
+    { "claimNo": 3, "kind": "dependent", "depType": "any", "dependsOn": [2], "features": ["F4_display"] },
+    { "claimNo": 4, "kind": "dependent", "depType": "any", "dependsOn": [3], "features": ["F5_lever"] },
+    { "claimNo": 5, "kind": "dependent", "depType": "all", "dependsOn": [3, 4], "features": ["F6_metal_housing"] },
+    { "claimNo": 6, "kind": "dependent", "depType": "any", "dependsOn": [1], "features": ["F7_battery"] },
+    { "claimNo": 7, "kind": "dependent", "depType": "all", "dependsOn": [5, 6], "features": ["F8_waterproof"] },
+    { "claimNo": 8, "kind": "dependent", "depType": "any", "dependsOn": [1], "features": ["F9_manual_knob"] },
+    { "claimNo": 9, "kind": "dependent", "depType": "any", "dependsOn": [4, 8], "features": ["F10_indicator"] },
+    { "claimNo": 10, "kind": "dependent", "depType": "any", "dependsOn": [5], "features": ["F5_lever", "F9_manual_knob"] },
+    { "claimNo": 11, "kind": "independent", "depType": "none", "dependsOn": [], "features": ["F11_quantum_link"] }
+  ],
+  "mutexPairs": [["F5_lever", "F9_manual_knob"]]
+}

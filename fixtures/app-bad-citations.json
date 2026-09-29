@@ -1,0 +1,14 @@
+{
+  "id": "app-bad-citations",
+  "title": "Fictional Application With Citation Defects",
+  "filingDate": "2021-06-01",
+  "priorityDate": "2020-06-01",
+  "dictVersion": "dict-v1",
+  "claims": [
+    { "claimNo": 1, "kind": "independent", "depType": "none", "dependsOn": [], "features": ["F1_widget"] },
+    { "claimNo": 2, "kind": "dependent", "depType": "any", "dependsOn": [1], "features": ["F3_spring"] },
+    { "claimNo": 3, "kind": "dependent", "depType": "any", "dependsOn": [4], "features": ["F4_display"] },
+    { "claimNo": 4, "kind": "dependent", "depType": "any", "dependsOn": [3], "features": ["F5_lever"] }
+  ],
+  "mutexPairs": []
+}

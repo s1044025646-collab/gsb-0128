@@ -1,0 +1,21 @@
+{
+  "name": "patent-claim-matcher",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local patent claim expansion and prior-art structured-coverage checking backend (TypeScript + Node.js + SQLite).",
+  "type": "module",
+  "engines": {
+    "node": ">=23.4.0"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --test --test-reporter=spec --no-warnings=ExperimentalWarning \"test/*.test.ts\"",
+    "demo": "node --no-warnings=ExperimentalWarning src/cli/index.ts demo",
+    "start": "node --no-warnings=ExperimentalWarning src/api/server.ts",
+    "cli": "node --no-warnings=ExperimentalWarning src/cli/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.0",
+    "typescript": "^5.7.0"
+  }
+}
